@@ -1,0 +1,40 @@
+{
+    "name": "# 1190",
+    "description": "Typical Tigers is a collection of 3,900 Tigers to symbolize the ~3,900 Tigers left in the wild.",
+    "image": "ipfs://QmaQGuU8aJEPcFpVntZYWEhLp3PGqbxjTqHtibrX6WS36t/1190.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "Base",
+            "value": "Orange"
+        },
+        {
+            "trait_type": "Stripes",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sunglasses"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Whistling"
+        },
+        {
+            "trait_type": "Nose",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Body",
+            "value": "White Tee"
+        },
+        {
+            "trait_type": "Headwear",
+            "value": "Pirate Hat"
+        }
+    ],
+    "nft_index": 1190
+}
