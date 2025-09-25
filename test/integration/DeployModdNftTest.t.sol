@@ -4,13 +4,24 @@ pragma solidity ^0.8.27;
 import {Test, console} from "forge-std/Test.sol";
 import {DeployMoodNft} from "../../script/DeployMoodNft.s.sol";
 
+/**
+ * @author Gabriel Egguiguren P.
+ * @title DeployMoodNftTest
+ * @notice This contract tests the DeployMoodNft script.
+ */
 contract DeployMoodNftTest is Test {
     DeployMoodNft deployer;
 
+    /**
+     * @notice Sets up the test environment.
+     */
     function setUp() public {
         deployer = new DeployMoodNft();
     }
 
+    /**
+     * @notice Tests the svgToImageURI function.
+     */
     function testConvertSvgToImageUri() public view {
         string memory expectedUri = 
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+PHRleHQgeD0iMCIgeT0iMTUiIGZpbGw9ImJsYWNrIj5IaSEgWW91ciBicm93c2VyIGRlY29kZWQgdGhpczwvdGV4dD48L3N2Zz4=";

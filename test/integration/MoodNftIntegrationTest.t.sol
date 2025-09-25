@@ -5,6 +5,11 @@ import {Test, console} from "forge-std/Test.sol";
 import {MoodNft} from "../../src/MoodNft.sol";
 import {DeployMoodNft} from "../../script/DeployMoodNft.s.sol";
 
+/**
+ * @author Gabriel Egguiguren P.
+ * @title MoodNftIntegrationTest
+ * @notice This contract tests the MoodNft contract.
+ */
 contract MoodNftIntegrationTest is Test {
     MoodNft public moodNft;
     DeployMoodNft public deployer;

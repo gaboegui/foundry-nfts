@@ -3,7 +3,11 @@ pragma solidity ^0.8.27;
 
 import {Test, console} from "forge-std/Test.sol";
 import {MoodNft} from "../../src/MoodNft.sol";
-
+/**
+ * @title MoodNftTest
+ * @author Gabriel Egguiguren P.
+ * @notice This contract Unit tests the MoodNft contract.
+ */
 contract MoodNftTest is Test {
     MoodNft public moodNft;
 

@@ -89,6 +89,17 @@ Result:
 0x594ed0194aC318462a847C2ebb54bF772e333535
 1000
 
+// IA prompts
+Add relevant professional comments only to directories: src, script, test. 
+Preserve the coments that already exists, don't modify them. 
+Also add @author in the headers of the contracts and scripts if needed. 
+Don't change the name of variables or also dont change the code, only comments. 
+Don't comment getter and setters
+
+Improve README.md file
+Preserve the existing information. 
+Make a general description of the project.
+Add the relevant information related to BasicNft.sol and MoodNft.sol smart contract
 
 
 

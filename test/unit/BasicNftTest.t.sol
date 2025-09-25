@@ -5,6 +5,11 @@ import {Test} from "forge-std/Test.sol";
 import {BasicNft} from "../../src/BasicNft.sol";
 import {DeployBasicNft} from "../../script/DeployBasicNft.s.sol";
 
+/**
+ * @title BasicNftTest
+ * @author Gabriel Egguiguren P.
+ * @notice This contract Unit tests the BasicNft contract.
+ */
 contract BasicNftTest is Test {
     string public constant NFT_COLLECTION_NAME = "Funny Tigers";
     string public constant NFT_COLLECTION_SYMBOL = "FTIG";
