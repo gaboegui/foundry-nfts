@@ -1,5 +1,5 @@
 {
-    "name": "Tiger",
+    "name": "Tiger #0",
     "description": "An adorable Tiger pal!",
     "image": "ipfs://bafkreihw3tutoi5jpshk7kseohbntoknz6df4ha72gs7ymbgidzmdogscq",
     "attributes": [
@@ -7,5 +7,6 @@
             "trait_type": "cuteness",
             "value": 100
         }
-    ]
+    ],
+    "nft_index": 0
 }

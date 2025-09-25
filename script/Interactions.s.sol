@@ -7,6 +7,7 @@ import {MoodNft} from "../src/MoodNft.sol";
 import {DevOpsTools} from "foundry-devops/src/DevOpsTools.sol";
 
 contract MintBasicNft is Script {
+    // pinata.cloud/ipfs
     string public constant URI_TIGER = "ipfs://bafkreifuoygrqqrxrds4i5fpbo44xr7n4gocefdlbylu32ojeo6xs56ybi";
 
     function run() external {
